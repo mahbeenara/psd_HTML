@@ -1,0 +1,285 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+}
+@font-face{
+	src: url('fonts/PlayfairDisplay-Italic.ttf');
+	font-family: pfi;
+}
+@font-face{
+	src: url('fonts/WorkSans-Medium.ttf');
+	font-family: wsm;
+}
+.container{
+	width: 85%;
+	margin: auto;
+}
+.header-area{
+	background: url('images/home.jpg');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position: center center; 
+	height: 628px;
+}
+.header-area .blr{
+	width: 100%;
+	height: 628px;
+	background: rgba( 0, 0, 0, 0.6);
+}
+.logo{
+	width: 40%;
+	float: left;
+	overflow: hidden;
+	margin: 30px 0;
+	color: #ffffff;
+}
+.logo img{
+	width: 90px;
+	height: 35px;
+	margin-bottom: 40px;
+	
+}
+.nav-area{
+	width: 60%;
+	overflow: hidden;
+}
+.nav-area ul{
+	float: right;
+	margin-top: 27px;
+	position: relative;
+}
+.nav-area ul li{
+	display: inline-block;
+	list-style: none;
+}
+.nav-area ul li a{
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+	padding: 14px;
+	color: #bdc3c7;
+	letter-spacing: 2px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.nav-area ul li a:hover{
+	color: #E4E4E3;
+}
+.nav-area ul li ul{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	right: 0;
+}
+.intro{
+	text-align: center;
+	margin-top: -20px;
+}
+.intro h1{
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: tahoma;
+	margin-top: 140px;
+}
+.intro h2{
+	width: 75%;
+	font-size: 58px;
+	color: #ffffff;
+	font-family: aharoni;
+	margin: 0 auto;
+	font-weight: 550;
+}
+.intro h3{
+	width: 75%;
+	font-size: 60px;
+	color: #ffffff;
+	font-family: pfi;
+	margin: 0px auto;
+	font-weight: normal;
+}
+.nk-header-title-scroll-down{
+    display: block;
+    position: absolute;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+    bottom: 65px;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+    line-height: 54px;
+    border-radius: 50%;
+    border: 1px solid;
+    opacity: .6;
+}
+.agency{
+	padding-bottom: 100px;
+}
+.agency h2{
+	width: 50%;
+	font-size: 45px;
+	font-family: aharoni;
+	margin: auto;
+	text-align: center;
+	margin-top: 80px;
+	color: #171717;
+}
+.agency p{
+	width: 50%;
+	color: #5F6377;
+	font-size: 14px;
+	font-family: tahoma;
+	text-align: center;
+	margin: auto;
+	margin-top: 30px;
+	line-height: 26px;
+	letter-spacing: 1px;
+	font-weight: 580;
+}
+.agency img{
+	margin-left: 560px;
+	margin-top: 35px;
+}
+.info{
+	background: url('images/bg-pattern.jpg');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position: center center; 
+	height: 220px;
+	overflow: hidden;
+}
+.icon{
+	font-size: 40px;
+	float: left;
+	overflow: hidden;
+	color: #ffffff;
+	margin-top: 85px;
+}
+.nt .number{
+	font-size: 18px;
+	margin-left: 70px;
+	margin-top: 90px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.nt h4{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-left: 70px;
+	margin-top: 7px;
+	font-size: 14px;
+}
+.col-1-4{
+	width: 23%;
+	margin: 0 1%;
+	float: left;
+	overflow: hidden;
+}
+.col-1-4 .last{
+	margin-right: 0;
+}
+.project-area{
+	overflow: hidden;
+}
+.project-content h2{
+	width: 50%;
+	font-size: 45px;
+	font-family: aharoni;
+	margin: auto;
+	text-align: center;
+	margin-top: 80px;
+	color: #171717;
+}
+.project-content p{
+	width: 60%;
+	color: #5F6377;
+	font-size: 14px;
+	font-family: tahoma;
+	text-align: center;
+	margin: auto;
+	margin-top: 30px;
+	line-height: 26px;
+	letter-spacing: 1px;
+	font-weight: 580;
+}
+.project-item{
+	margin-top: 50px;
+}
+.project-item img{
+	margin: 15px 0;
+}
+.sp{
+	width: 355px;
+	height: 230px;
+}
+.blr1{
+	width: 355px;
+	height: 230px;
+}
+.col-1-3 .bp{
+	width: 355px;
+	height: 494px;
+}
+.blr2{
+	width: 355px;
+	height: 494px;
+}
+.project-item .col-1-3{
+	width: 32%;
+	margin: 0 0.5%;
+	float: left;
+	overflow: hidden;
+}
+ .sp:hover .blr1{
+	background: rgb(255,255,255,0.5);
+}
+.review-area{
+	background: url('images/bg-pattern.jpg');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position: center center; 
+	height: 450px;
+	overflow: hidden;
+	margin-top: 50px;
+}
+.review-content{
+	cursor: grab;
+}
+.review-content h3{
+	width: 63%;
+	font-size: 25px;
+	color: #ffffff;
+	font-family: pfi;
+	margin: auto;
+	margin-top: 150px;
+	font-weight: normal;
+	text-align: center;
+	word-spacing: 2px;
+	line-height: 37px;
+}
+.review-content h4{
+	font-family: wsm;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 500;
+}
+.logo-area{
+	margin: 50px 40px;
+}
+.logos img{
+	width: 200px;
+	height: 100px;
+	cursor: grab;
+}
+
+
